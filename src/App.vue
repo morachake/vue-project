@@ -2,19 +2,15 @@
 <template>
   <div>
     <Header/>
-    <Home/>
   </div>
+  <RouterView/>
 </template>
 
-<script >
+<script setup >
 import Header from './components/Header.vue'
-import Home from './pages/Home.vue'
-export default{
-  components :{
-    Header,
-    Home
-  }
-}
+import { RouterView } from 'vue-router'
+
+
 </script>
 
 <style lang="scss" scoped>
