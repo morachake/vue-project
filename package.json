@@ -13,7 +13,8 @@
     "@iconify/iconify": "^3.1.0",
     "sass": "^1.58.3",
     "uuid": "^9.0.0",
-    "vue": "^3.2.47"
+    "vue": "^3.2.47",
+    "vue-router": "4"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.2.0",
